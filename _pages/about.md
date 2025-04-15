@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-# 👋About Me
+# 👋 About Me
 
 I am Wenxiao Zhao, a first-year Master’s student in the Department of Statistics & Data Science, University of California Los Angeles. I received my B.Eng in Computer Science and Engineering at the Chinese University of Hong Kong in 2024, advised by Prof. Baoxiang Wang. 
 
