@@ -16,10 +16,13 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+# 👋About Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am Wenxiao Zhao, a first-year Master’s student in the Department of Statistics & Data Science, University of California Los Angeles. I received my B.Eng in Computer Science and Engineering at the Chinese University of Hong Kong in 2024, advised by Prof. Baoxiang Wang. 
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests lie in large language models, reinforcement learning, and robotics.
+
+I'm eager to collaborate on exciting research or projects. Please feel free to contact me(wenxiao0367@ucla.edu) if you're interested.
 
 # 📝 Publications 
 <div class='paper-box'>
@@ -38,7 +41,7 @@ My research interest includes neural machine translation and computer vision. I 
   
   We collect a dataset named MATE, which consists of 1 million chess positions with candidate moves annotated by chess experts for strategy and tactics. We finetune the LLaMA-3-8B model and compare it against state-of-the-art commercial         language models in the task of selecting better chess moves. Our experiments show that our models perform better than GPT, Claude, and Gemini models. We find that language explanations can enhance the reasoning capability of large language    models. 
   </div>
-</div>
+
 
 # 🎖 Honors and Awards
 - Bowen First Class Scholarship, The Chinese University of Hong Kong(SZ).
@@ -47,7 +50,7 @@ My research interest includes neural machine translation and computer vision. I 
 - Excellent Peer Advisor, School of Data Science, The Chinese University of Hong Kong(SZ), AY2023.
 
 # 📖 Educations
-- Sep 2024-June 2026 (Expected), M.S in Statistics, Department of Statistics & Data Science, University of California, Los Angeles.
+- Sep 2024-June 2026 (Expected), M.S in Statistics, Department of Statistics & Data Science, University of California Los Angeles.
 - Sep 2020 – July 2024, B.Eng in Computer Science and Engineering, School of Data Science, The Chinese University of Hong Kong(SZ).
 
 <p></p>
