@@ -33,7 +33,9 @@ My research interest includes neural machine translation and computer vision. I 
     
   [Explore the Reasoning Capability of LLMs in the Chess Testbed](https://arxiv.org/abs/2411.06655)  
   Shu Wang, Lei Ji, Renxi Wang, **Wenxiao Zhao**, Haokun Liu, Yifan Hou, Ying Nian Wu
+  
   NAACL2025 Main Conference
+  
   We collect a dataset named MATE, which consists of 1 million chess positions with candidate moves annotated by chess experts for strategy and tactics. We finetune the LLaMA-3-8B model and compare it against state-of-the-art commercial         language models in the task of selecting better chess moves. Our experiments show that our models perform better than GPT, Claude, and Gemini models. We find that language explanations can enhance the reasoning capability of large language    models. 
   </div>
 </div>
@@ -45,6 +47,6 @@ My research interest includes neural machine translation and computer vision. I 
 - Excellent Peer Advisor, School of Data Science, The Chinese University of Hong Kong(SZ), AY2023.
 
 # 📖 Educations
-- * Sep 2024-June 2026 (Expected) *, M.S in Statistics, Department of Statistics & Data Science, University of California, Los Angeles.
-- * Sep 2020 – July 2024*, B.Eng in Computer Science and Engineering, School of Data Science, The Chinese University of Hong Kong(SZ).
+- Sep 2024-June 2026 (Expected), M.S in Statistics, Department of Statistics & Data Science, University of California, Los Angeles.
+- Sep 2020 – July 2024, B.Eng in Computer Science and Engineering, School of Data Science, The Chinese University of Hong Kong(SZ).
 
