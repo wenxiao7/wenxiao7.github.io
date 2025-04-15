@@ -16,13 +16,17 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-# 👋 About Me
+# 💻 About Me
 
 I am Wenxiao Zhao, a first-year Master’s student in the Department of Statistics & Data Science, University of California Los Angeles. I received my B.Eng in Computer Science and Engineering at the Chinese University of Hong Kong in 2024, advised by Prof. Baoxiang Wang. 
 
 My research interests lie in large language models, reinforcement learning, and robotics.
 
-I'm eager to collaborate on exciting research or projects. Please feel free to contact me(wenxiao0367@ucla.edu) if you're interested.
+<p>
+  I'm eager to collaborate on exciting research or projects. Please feel free to contact me at 
+  <a href="mailto:wenxiao0367@ucla.edu" style="text-decoration: underline;">wenxiao0367@ucla.edu</a> if you're interested.
+</p>
+
 
 # 📝 Publications 
 <div class='paper-box'>
