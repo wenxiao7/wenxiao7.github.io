@@ -38,7 +38,7 @@ My research interests lie in large language models, reinforcement learning, and 
   </div>
   <div class='paper-box-text' markdown="1">
     
-  [Explore the Reasoning Capability of LLMs in the Chess Testbed](https://arxiv.org/abs/2411.06655)  
+  [Explore the Reasoning Capability of LLMs in the Chess Testbed](https://mate-chess.github.io/)  
   Shu Wang, Lei Ji, Renxi Wang, **Wenxiao Zhao**, Haokun Liu, Yifan Hou, Ying Nian Wu
   
   NAACL2025 Main Conference
