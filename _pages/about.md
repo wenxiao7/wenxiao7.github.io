@@ -17,8 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 # 💻 About Me
-
-I am Wenxiao Zhao, a first-year Master’s student in the Department of Statistics & Data Science, University of California Los Angeles. I received my B.Eng in Computer Science and Engineering at the Chinese University of Hong Kong in 2024, advised by Prof. Baoxiang Wang. 
+I am Wenxiao Zhao, a second-year Master's student in the Department of Statistics & Data Science, University of California Los Angeles, advised by [Prof. Ying Nian Wu](http://www.stat.ucla.edu/~ywu/). I received my B.Eng in Computer Science and Engineering at the Chinese University of Hong Kong in 2024, advised by [Prof. Baoxiang Wang](https://bxiangwang.github.io/).
 
 My research interests lie in large language models, reinforcement learning, and robotics.
 
