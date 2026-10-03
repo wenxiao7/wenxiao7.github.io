@@ -35,7 +35,7 @@ My research focuses on **large language models, reinforcement learning, and self
 
 <span class="anchor" id="education"></span>
 # 📖 Education
-- Sep 2024 – June 2026, M.S in Statistics, Department of Statistics & Data Science, University of California Los Angeles. **GPA: 3.9**.
+- Sep 2024 – June 2026, M.S in Statistics, Department of Statistics & Data Science, University of California Los Angeles (3.9/4.0).
 - Sep 2020 – July 2024, B.Eng in Computer Science and Engineering, School of Data Science, The Chinese University of Hong Kong(SZ).
 
 <p></p>
