@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Wenxiao Zhao"
-description              : ""
+description              : "Wenxiao Zhao — research in large language models, reinforcement learning, strategic reasoning, and multi-agent systems."
 repository               : "wenxiao7/wenxiao7.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "wenxiao7"
   google_plus      :
   keybase          :
   instagram        :

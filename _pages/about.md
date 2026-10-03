@@ -8,18 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 # 💻 About Me
 I am Wenxiao Zhao, a second-year Master's student in the Department of Statistics & Data Science, University of California Los Angeles, advised by [Prof. Ying Nian Wu](http://www.stat.ucla.edu/~ywu/). I received my B.Eng in Computer Science and Engineering at the Chinese University of Hong Kong in 2024, advised by [Prof. Baoxiang Wang](https://bxiangwang.github.io/).
 
-My research interests lie in large language models, reinforcement learning, and robotics.
+My research focuses on **large language models and reinforcement learning**, especially preference optimization, strategic reasoning, and multi-agent systems. My recent work also explores scientific discovery and evidence-grounded evaluation. I am additionally interested in robotics.
 
 <p>
   I'm eager to collaborate on exciting research or projects. Please feel free to contact me at 
@@ -27,33 +20,41 @@ My research interests lie in large language models, reinforcement learning, and 
 </p>
 
 
-# 📝 Publications 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">NAACL 2025</div>
-      <img src='images/chess.png' alt="sym" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    
-  [Explore the Reasoning Capability of LLMs in the Chess Testbed](https://mate-chess.github.io/)  
-  Shu Wang, Lei Ji, Renxi Wang, **Wenxiao Zhao**, Haokun Liu, Yifan Hou, Ying Nian Wu
-  
-  NAACL2025 Main Conference
-  
-  We collect a dataset named MATE, which consists of 1 million chess positions with candidate moves annotated by chess experts for strategy and tactics. We finetune the LLaMA-3-8B model and compare it against state-of-the-art commercial         language models in the task of selecting better chess moves. Our experiments show that our models perform better than GPT, Claude, and Gemini models. We find that language explanations can enhance the reasoning capability of large language    models. 
-  </div>
-</div>
+<span class="anchor" id="publications"></span>
+# 📝 Publications
 
+My recent work on language-model reasoning, learning, and agent systems. See [Google Scholar](https://scholar.google.com/citations?user=J1U0aPkAAAAJ&hl=en) for the full publication list and current citations.
 
+## Conference Papers
+
+{% assign papers = site.data.publications | where: "category", "conference" %}
+{% for paper in papers %}
+{% include publication.html paper=paper %}
+{% endfor %}
+
+## Workshop Papers
+
+{% assign papers = site.data.publications | where: "category", "workshop" %}
+{% for paper in papers %}
+{% include publication.html paper=paper %}
+{% endfor %}
+
+## Preprints
+
+{% assign papers = site.data.publications | where: "category", "preprint" %}
+{% for paper in papers %}
+{% include publication.html paper=paper %}
+{% endfor %}
+
+<span class="anchor" id="honors-and-awards"></span>
 # 🎖 Honors and Awards
 - Bowen First Class Scholarship, The Chinese University of Hong Kong(SZ).
-- Third price, The 13th Chinese Mathematics Competitions(CMC), AY2021.
-- Undergraduate Research Awards, The Chinese University of Hong Kong(SZ), 19th Round & 23th Round.
+- Third Prize, The 13th Chinese Mathematics Competitions(CMC), AY2021.
+- Undergraduate Research Awards, The Chinese University of Hong Kong(SZ), 19th Round & 23rd Round.
 - Excellent Peer Advisor, School of Data Science, The Chinese University of Hong Kong(SZ), AY2023.
 
-# 📖 Educations
+<span class="anchor" id="education"></span>
+# 📖 Education
 - Sep 2024-June 2026 (Expected), M.S in Statistics, Department of Statistics & Data Science, University of California Los Angeles.
 - Sep 2020 – July 2024, B.Eng in Computer Science and Engineering, School of Data Science, The Chinese University of Hong Kong(SZ).
 
