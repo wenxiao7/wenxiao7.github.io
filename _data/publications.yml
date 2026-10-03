@@ -1,6 +1,9 @@
-# Sources: Google Scholar publication records, latest arXiv author lists, and ACL Anthology.
+# Sources: Google Scholar publication records, latest arXiv author lists, ACL Anthology, and the supplied CV.
+# Low-Rank and BiTempo titles, authors, and status are from CV_Wenxiao.pdf (checked 2026-10-04).
 # Order: published papers first, then first-author papers, then date descending within each group.
-# Dates for conference entries follow Scholar; preprint dates are initial arXiv submissions.
+# Dates follow venue/Scholar records for conference entries and initial arXiv submissions for preprints.
+# BiTempo is under review in the CV; use the requested Preprint label without inventing a date.
+# Undated entries follow dated entries within the same publication-status and authorship group.
 - title: 'Se-DPO: Self-Evolving Token Credit for Direct Preference Optimization'
   authors:
   - Wenxiao Zhao
@@ -26,6 +29,15 @@
   venue: NeurIPS 2026 ED
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:YsMSGLbcyi4C
   date: 2026-09
+- title: Low-Rank Hierarchical Merging for Efficient Long-to-Short Reasoning
+  authors:
+  - Zeqiu Yu
+  - Xuesheng Zhang
+  - Wenxiao Zhao
+  - Shixiao Wang
+  category: conference
+  venue: NeurIPS 2026
+  date: '2026'
 - title: Explore the Reasoning Capability of LLMs in the Chess Testbed
   authors:
   - Shu Wang
@@ -57,6 +69,22 @@
   venue: Preprint · 2026
   url: https://arxiv.org/abs/2608.04872
   date: '2026-08-05'
+- title: 'BiTempo: Adaptive Two-Timescale Latent Inference with Language Models for Scientific Equation Discovery'
+  authors:
+  - Wenxiao Zhao
+  - Dong Liu
+  - Eric Hanchen Jiang
+  - Yilin Chen
+  - Yanxuan Yu
+  - Shu Wang
+  - Deqian Kong
+  - Wenhao Li
+  - Fenghua Ling
+  - Ying Nian Wu
+  - Haobo Li
+  category: preprint
+  venue: Preprint
+  date: null
 - title: 'Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems'
   authors:
   - Jinxi Yu

@@ -25,7 +25,10 @@ My research focuses on **large language models, reinforcement learning, and self
 
 <span class="anchor" id="honors-and-awards"></span>
 # 🎖 Honors and Awards
-- Bowen First Class Scholarship, The Chinese University of Hong Kong(SZ).
+- UCLA Scholarship (US$10,000+).
+- UCLA Early Admission Nomination (3/390).
+- Bowen First Class Scholarship (Top 1%), The Chinese University of Hong Kong(SZ).
+- CUHK Summer Program Scholarship.
 - Third Prize, The 13th Chinese Mathematics Competitions(CMC), AY2021.
 - Undergraduate Research Awards, The Chinese University of Hong Kong(SZ), 19th Round & 23rd Round.
 - Excellent Peer Advisor, School of Data Science, The Chinese University of Hong Kong(SZ), AY2023.
