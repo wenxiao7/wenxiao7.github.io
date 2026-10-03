@@ -1,5 +1,15 @@
-# Sources checked on 2026-10-03: Google Scholar profile, arXiv, ACL Anthology, and Wordplay.
-# Venue labels follow the linked sources; author lists use the latest arXiv version where available.
+# Sources: Google Scholar publication records, latest arXiv author lists, and ACL Anthology.
+# Order: published papers first, then first-author papers, then date descending within each group.
+# Dates for conference entries follow Scholar; preprint dates are initial arXiv submissions.
+- title: 'Se-DPO: Self-Evolving Token Credit for Direct Preference Optimization'
+  authors:
+  - Wenxiao Zhao
+  - Shu Wang
+  - Ying Nian Wu
+  category: conference
+  venue: COLM 2026
+  url: https://arxiv.org/abs/2608.09568
+  date: 2026-10
 - title: 'BoardGameArena: A Multi-Dimensional Benchmark for Strategic Reasoning of LLMs in Board Games'
   authors:
   - Wenxiao Zhao
@@ -15,20 +25,7 @@
   category: conference
   venue: NeurIPS 2026 ED
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:YsMSGLbcyi4C
-  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:YsMSGLbcyi4C
-  summary: A multi-dimensional benchmark for evaluating strategic reasoning in large language models.
-- title: 'Se-DPO: Self-Evolving Token Credit for Direct Preference Optimization'
-  authors:
-  - Wenxiao Zhao
-  - Shu Wang
-  - Ying Nian Wu
-  category: conference
-  venue: COLM 2026
-  url: https://arxiv.org/abs/2608.09568
-  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:Tyk-4Ss8FVUC
-  summary: Adaptive token credit for preference optimization, using the model’s evolving reward signals without
-    an external reward model.
-  pdf: https://arxiv.org/pdf/2608.09568
+  date: 2026-09
 - title: Explore the Reasoning Capability of LLMs in the Chess Testbed
   authors:
   - Shu Wang
@@ -39,27 +36,9 @@
   - Yifan Hou
   - Ying Nian Wu
   category: conference
-  venue: NAACL 2025 · Main Conference, Short Papers
+  venue: NAACL 2025
   url: https://aclanthology.org/2025.naacl-short.52/
-  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:u5HHmVD_uO8C
-  summary: MATE pairs one million chess positions with strategic and tactical annotations to study and improve language-model
-    reasoning.
-  pdf: https://aclanthology.org/2025.naacl-short.52.pdf
-  project: https://mate-chess.github.io/
-- title: 'MATE: Explore the Reasoning Capability of LLMs in the Chess Testbed'
-  authors:
-  - Shu Wang
-  - Wenxiao Zhao
-  - Lei Ji
-  - Renxi Wang
-  - Haokun Liu
-  - Yifan Hou
-  - Ying Nian Wu
-  category: workshop
-  venue: EMNLP 2025 · Wordplay Workshop
-  url: https://wordplay-workshop.github.io/pdfs/17.pdf
-  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:2osOgNQ5qMEC
-  pdf: https://wordplay-workshop.github.io/pdfs/17.pdf
+  date: '2025'
 - title: 'A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination'
   authors:
   - Wenxiao Zhao
@@ -75,12 +54,9 @@
   - Haobo Li
   - Lei Bai
   category: preprint
-  venue: arXiv · 2026
+  venue: Preprint · 2026
   url: https://arxiv.org/abs/2608.04872
-  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:zYLM7Y9cAGgC
-  summary: A self-evolving multi-agent framework for scientific equation discovery through role-based coordination,
-    evaluator feedback, and process memory.
-  pdf: https://arxiv.org/pdf/2608.04872
+  date: '2026-08-05'
 - title: 'Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems'
   authors:
   - Jinxi Yu
@@ -93,11 +69,9 @@
   - Kai-Wei Chang
   - Ying Nian Wu
   category: preprint
-  venue: arXiv · 2026
+  venue: Preprint · 2026
   url: https://arxiv.org/abs/2609.02264
-  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:W7OEmFMy1HYC
-  summary: Efficient communication-topology design for LLM agents using a compact learned codebook.
-  pdf: https://arxiv.org/pdf/2609.02264
+  date: '2026-09-02'
 - title: Privacy-Preserving Topology-Guided Safety for LLM-Based Multi-Agent Systems via Federated Graph Learning
   authors:
   - Jinxi Yu
@@ -110,11 +84,9 @@
   - Kai-Wei Chang
   - Ying Nian Wu
   category: preprint
-  venue: arXiv · 2026
+  venue: Preprint · 2026
   url: https://arxiv.org/abs/2609.02967
-  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:Y0pCki6q_DkC
-  summary: Federated graph learning for safer multi-agent systems without pooling private interaction traces.
-  pdf: https://arxiv.org/pdf/2609.02967
+  date: '2026-09-02'
 - title: 'AutoSupervision: Closing the Feedback Loop in Scientific Workflows with Grounded Revision Verification'
   authors:
   - Haobo Li
@@ -129,11 +101,9 @@
   - Fenghua Ling
   - Lei Bai
   category: preprint
-  venue: arXiv · 2026
+  venue: Preprint · 2026
   url: https://arxiv.org/abs/2607.27845
-  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:9yKSN-GCB0IC
-  summary: Evidence-grounded verification of whether manuscript revisions address peer-review feedback.
-  pdf: https://arxiv.org/pdf/2607.27845
+  date: '2026-07-30'
 - title: 'RUBRIC: Realism--Utility Balanced Ranking for Imbalanced Classification'
   authors:
   - Yanxuan Yu
@@ -149,8 +119,6 @@
   - Renata Borovica-Gajic
   - Ying Nian Wu
   category: preprint
-  venue: arXiv · 2026
+  venue: Preprint · 2026
   url: https://arxiv.org/abs/2607.09816
-  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=J1U0aPkAAAAJ&pagesize=100&citation_for_view=J1U0aPkAAAAJ:UeHWp8X0CEIC
-  summary: Selecting synthetic training samples by balancing realism and classification utility.
-  pdf: https://arxiv.org/pdf/2607.09816
+  date: '2026-07-10'
